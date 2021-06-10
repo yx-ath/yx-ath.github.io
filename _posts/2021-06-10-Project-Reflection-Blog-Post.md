@@ -3,7 +3,7 @@ layout: post
 title: Project Reflection Blog Post
 ---
 
-> In this blog post, I'll write a reflection on the [class project](https://github.com/guanzhangszhao/YoungNRich) I've done with team *YongNRich*.
+> In this blog post, I'll write a reflection on the [class project](https://github.com/guanzhangszhao/YoungNRich) I've done with team *YongNRich*, as well as my project contribution part.
 
 ## Project Introduction Link
 
@@ -33,7 +33,7 @@ The project works intend to create optimized portfolio with high returns that co
 
 - Higher Computing Power: due to the limitation of computing power in our project. We only choose to include 20,000 characters from daily retrieved twitter, otherwise it is really hard for the project running process. Therefore, the predictions won't be that accurate as expected. We expect the accuracy to be better with a higher computing power.
 
-- Public Information Restriction of Market: due to the limitation of resource, for the trading information, we are only able to access from Tiprank, which only gives weekly trading data in a constrained time period. As proved in the [Volatility Sentiment Analysis](), such weekly information, due to the long time period comparing to daily trading, actually constraints the model and makes the model more unstable. Therefore, we probably need to have access to more short-term information related to daily prediction, such as trading and stock information.
+- Public Information Restriction of Market: due to the limitation of resource, for the trading information, we are only able to access from Tiprank, which only gives weekly trading data in a constrained time period. As proved in the [Volatility Sentiment Analysis](https://github.com/guanzhangszhao/YoungNRich/commit/9240c4e4af6b67d76f735bb807d6d1733cdb19bf), such weekly information, due to the long time period comparing to daily trading, actually constraints the model and makes the model more unstable. Therefore, we probably need to have access to more short-term information related to daily prediction, such as trading and stock information.
 
 ##### 4. Way to Proposal
 
@@ -41,7 +41,7 @@ The project works intend to create optimized portfolio with high returns that co
 
 ##### 5. Learning from the Experience
 
-- In my experience of this project,I am now able to do [sentiment analysis]() and to compare different results in the model selection process in general
+- In my experience of this project,I am now able to do [sentiment analysis](https://github.com/guanzhangszhao/YoungNRich/commit/9240c4e4af6b67d76f735bb807d6d1733cdb19bf) and to compare different results in the model selection process in general
 - I've learned in general how to retrieve data from different API ranks and selecting useful data and converting them into dataframes for further analysis. I think this is really important for my further researches
 - Althoguh did not partially shown in the final version of this project, when we did not discover API for tiprank yet, I tried to convert the existing Java package into python for usage. I think this experience is also important for me, as many packages contains either only python version or Java version. Converting those in Java language to JavaScript and further convert .js into python is a really interesting experience of me, and I value this experience for further converting packages between different programming languages
 
@@ -49,3 +49,8 @@ The project works intend to create optimized portfolio with high returns that co
 
 - I learned the fact that quant researches are sometimes constrained by the computing power and resource limitation, instead of lack of knowledge and skills to do improvement. I think this would influence my future study in the field of quantitative research
 - As I planned getting into the field of Financial Engineering, this project provides me a complete experience on analyzing market trends, specifically stock returns, as well as constructing optimized portfolio in a relatively professional way. Having this complete experience, I think my skills in quantitative research improves a lot, which is important for my future research and career plans.
+
+
+## Contribution
+
+In this project, I mainly work on the [Volatility Analysis](https://github.com/guanzhangszhao/YoungNRich/commit/9240c4e4af6b67d76f735bb807d6d1733cdb19bf) part for finding the most suitable model in our project. I've created some of the preparation functions together with chelsea, and I mainly did the code contribution parts as well as different MSE plots.
